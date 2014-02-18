@@ -10,7 +10,7 @@ Template variables:<br>
 - `{%index%}` - index of item in items loop
 
 ## Create index.php file
-[Example](https://github.com/isRuslan/php-template/blob/master/index.phpl) <br>
+[Example](https://github.com/isRuslan/php-template/blob/master/index.php) <br>
 - Include template class:<br>
 `include 'template.php';`
 - Create an object:<br>
