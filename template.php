@@ -62,7 +62,7 @@ class Template {
      * @param integer $index index of loop item
      * @return string replaced content
      */
-    private function parseSingle( $key, $value, $string, $index ) {
+    private function parseSingle( $key, $value, $string, $index = null ) {
         if ( isset( $index ) ) {
             $string = str_replace( $this->l_delim . '%index%' . $this->r_delim, $index, $string );
         }
